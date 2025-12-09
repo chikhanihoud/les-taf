@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salon d'Emploi — Media Buying 2026</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                cyan: '#0094d9',
+                blue: '#1875bb',
+                darkBlue: '#16498c',
+                deepBlue: '#0b3f59',
+                yellow: '#dcfe11',
+                lime: '#ccfa04',
+                olive: '#b4dc02',
+              }
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+              arabic: ['Cairo', 'sans-serif'],
+            },
+            animation: {
+              'heartbeat': 'heartbeat 2s infinite',
+            },
+            keyframes: {
+              heartbeat: {
+                '0%, 100%': { transform: 'scale(1)' },
+                '50%': { transform: 'scale(1.1)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+      body[dir="rtl"] {
+        font-family: 'Cairo', sans-serif;
+      }
+      /* Mimic "Hero" bold font style with heavy Montserrat */
+      .font-hero {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800; /* ExtraBold */
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      body[dir="rtl"] .font-hero {
+        font-family: 'Cairo', sans-serif;
+        letter-spacing: 0;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
