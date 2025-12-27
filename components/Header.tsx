@@ -76,7 +76,7 @@ export const Header: React.FC<HeaderProps> = ({ lang, t }) => {
                      isScrolled ? 'text-brand-deepBlue' : 'text-white'
                  }`}>{t.academy1}</span>
                  <span className={`text-[10px] font-bold leading-none ${
-                     isScrolled ? 'text-brand-deepBlue' : 'text-brand-yellow'
+                     isScrolled ? 'text-brand-deepBlue' : 'text-[#ffc475]'
                  }`}>{t.academy2}</span>
              </div>
         </div>
@@ -127,7 +127,7 @@ export const Header: React.FC<HeaderProps> = ({ lang, t }) => {
                      <span className={`font-medium text-xl ${isScrolled ? 'text-black' : 'text-white'}`}>
                         {t.academy1}
                      </span>
-                     <span className={`font-medium text-xl text-brand-yellow ${isScrolled ? 'drop-shadow-[0_1px_1px_rgba(0,0,0,0.1)]' : ''}`}>
+                     <span className={`font-medium text-xl text-[#ffc475] ${isScrolled ? 'drop-shadow-[0_1px_1px_rgba(0,0,0,0.1)]' : ''}`}>
                         {t.academy2}
                      </span>
                   </div>

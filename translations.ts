@@ -135,6 +135,16 @@ export const translations = {
       admin: "Accès Admin",
       backToTop: "Retour en haut",
       switchLang: "العربية"
+    },
+    exitModal: {
+      title: "Attendez !",
+      subtitle: "Ne partez pas sans votre invitation.",
+      text: "Recevez les profils des meilleurs Media Buyers directement dans votre boîte mail.",
+      placeholderName: "Votre Nom Complet",
+      placeholder: "Votre adresse email",
+      placeholderPhone: "Votre Numéro de Téléphone",
+      button: "Je veux mon accès",
+      close: "Non, je ne suis pas intéressé"
     }
   },
   ar: {
@@ -273,6 +283,16 @@ export const translations = {
       admin: "دخول المسؤول",
       backToTop: "العودة للأعلى",
       switchLang: "Français"
+    },
+    exitModal: {
+      title: "انتظر !",
+      subtitle: "لا تذهب بدون دعوتك.",
+      text: "احصل على ملفات أفضل الميديا بايرز مباشرة في بريدك الإلكتروني.",
+      placeholderName: "اسمك الكامل",
+      placeholder: "بريدك الإلكتروني",
+      placeholderPhone: "رقم هاتفك",
+      button: "أريد الوصول",
+      close: "لا، لست مهتمًا"
     }
   }
 };

@@ -14,6 +14,7 @@ import { DarkModeProvider } from './contexts/DarkModeContext';
 import { DarkModeToggle } from './components/DarkModeToggle';
 import { AnimatedStats } from './components/AnimatedStats';
 import { FAQ } from './components/FAQ';
+import { ExitIntentModal } from './components/ExitIntentModal';
 import { translations } from './translations';
 
 function App() {
@@ -83,6 +84,7 @@ function App() {
             onToggleLang={toggleLang}
           />
           <StickyCTA onClick={scrollToRegister} text={t.hero.cta} />
+          <ExitIntentModal lang={lang} t={t} />
           <DarkModeToggle />
           <ToastContainer />
         </div>
